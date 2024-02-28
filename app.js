@@ -1,4 +1,4 @@
-require('dotenv').config(); // load environment variables from .env file
+
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000; // default port is 3000
